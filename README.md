@@ -1,6 +1,9 @@
 # Módulo 3 - Trilha HTML
 
 **Título:** Recriando Wikipedia, com um layout melhor :)
+- Página criada para o desafio do Módulo 01 de HTML do Bootcamp de Front-end da DIO.me
+- A página pode ser visualizada <a href="https://codepen.io/Gaia-the-encoder/full/azOgmWO" target="_blank">neste link</a>
+- Página criada por Gaia Gaijutis
 
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
