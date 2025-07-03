@@ -3,15 +3,28 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+ul { 
+    list-style: none; padding-left: 5px; 
+}
+
+a { 
+    color:#563f46; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
-.content {
+
+main {
     max-width: 1440px;
     margin: auto;
     grid-gap: 3rem;
@@ -22,17 +35,99 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.footer {
-    min-height: 100px;
-    border-top: solid 1px #cdcdcd;
+
+
+footer p {
+    text-align: center;
+    justify-content: center;
 }
-.anchors {
-    border-left: solid 1px #cdcdcd;
+
+#sidebar {
+    border-left: solid 1px #616161;
+    border-right: solid 1px #616161;
     padding-left: 15px;
 }
-.sidebar {
-    border-right: solid 1px #cdcdcd;
+
+#anchors {
+    border-right: solid 1px #616161;
+    border-left: solid 1px #616161;
+    padding-left: 15px;
 }
-figure {
+
+
+.right {
+    float: right;
+    text-align: left;
+    font-size: 9px;
+    display: block;
+    padding-left:5px;
+}
+
+.left {
+    float: left;
+    text-align: right;
+    font-size: 9px;
+    display: block;
+    padding-right:15px;
+    padding-left: 0;
+}
+
+.list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+    }
+    .list-inline > li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .text-center {
+        text-align: center;
+    }
+
+figcaption {
     text-align: center;
+    font-size: 10px;
+}
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+blockquote {
+    border-left: 15px solid #563f46;
+    padding: 10px;
+    font-size: 18px;
+    width: 600px;
+}
+
+#obras table  {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+#obras td {
+    border: 1px solid black;
+  border-collapse: collapse;
+    padding: 10px;
+}
+
+#obras tr:hover {
+    background-color: #563f46;
+    color: #fff
+}
+
+#obras th {
+    background-color: #563f46;
+    color: #fff;
+      padding: 5px;
 }
